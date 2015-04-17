@@ -1,0 +1,11 @@
+{
+  "name": "MowBot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "irc": "^0.3.11"
+  }
+}

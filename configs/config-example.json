@@ -1,0 +1,25 @@
+{
+  "basic": {
+    "allow-anyone": false,
+    "allowed-list": [
+      "foo"
+    ]
+  },
+  "irc": {
+    "host": "",
+    "username": "",
+    "password": "",
+    "channels": [
+      ""
+    ],
+    "debug": false
+  },
+  "servers": {
+    "example": {
+      "friendly-name": "Example Server",
+      "jar": "example.jar",
+      "maxram": "8192M",
+      "minram": "256M"
+    }
+  }
+}
