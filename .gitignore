@@ -1,5 +1,6 @@
 servers/
 node_modules/
 .idea/
+pid/
 configs/config.json
 configs/commands.json
