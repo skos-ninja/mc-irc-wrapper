@@ -6,6 +6,7 @@
     "start": "node ./app.js"
   },
   "dependencies": {
-    "irc": "^0.3.11"
+    "irc": "^0.3.11",
+    "request": "^2.55.0"
   }
 }

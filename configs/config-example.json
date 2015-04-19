@@ -1,5 +1,10 @@
 {
   "basic": {
+    "custom-commands": true,
+    "crash-message": "",
+    "auto-upload-crash": true,
+    "github-user-agent": "",
+    "github-api-key": "",
     "allow-anyone": false,
     "allowed-list": [
       "foo"
@@ -17,6 +22,7 @@
   "servers": {
     "example": {
       "friendly-name": "Example Server",
+      "directory": "minecraft/",
       "jar": "example.jar",
       "maxram": "8192M",
       "minram": "256M"
