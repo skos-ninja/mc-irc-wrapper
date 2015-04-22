@@ -4,3 +4,4 @@ node_modules/
 pid/
 configs/config.json
 configs/commands.json
+configs/users.json
