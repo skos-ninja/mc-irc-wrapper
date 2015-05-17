@@ -1,6 +1,7 @@
 {
   "basic": {
     "debug": false,
+    "crash-on-error": false,
     "custom-commands": true,
     "crash-message": "",
     "auto-upload-crash": true,
