@@ -2,6 +2,7 @@
 var EventEmitter = require('events').EventEmitter;
 var stdin = process.openStdin();
 var fs = require('fs');
+var request = require('request');
 var ignorelist = {};
 //</editor-fold>
 
@@ -268,6 +269,9 @@ for(var a in config['servers']){
                     if (size != 0) {
                         irc.sayToAll(exports.config.crashmessage);
                         if (exports.config.autoupload) {
+							if(exports.config.debug){
+								console.log('Uploading crash report to github');
+							}
                             exports.servers.putCrash(crash, filename, function (url) {
                                 irc.sayToAll('Crash Report at: ' + url);
                             });
